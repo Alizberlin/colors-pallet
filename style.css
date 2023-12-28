@@ -44,4 +44,10 @@ div>.container{
         bottom: 2%;
         left: 50%;
         transform: translateX(-50%);
+        width: 50%;
+        height: 70px;
+        background-color: rgba(249, 231, 209, 0.789);
+        border-radius: 5px;
+        padding: 1rem;
+        text-align: center;
     }
