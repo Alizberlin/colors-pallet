@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    min-height: 35vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main>.container
+{
+   margin: 5px;
+    width: 500px;
+    height: 265px;
+    text-align: center;                
+}
+div>.container{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    border: 1px solid #ff0000;
+}
+
+    .container>span
+    {
+            display: inline-block;
+            margin: auto auto;
+            width: 100%;
+        height: 220px;
+        text-align: center;
+        box-shadow: 2px 8px 2px rgb(222, 221, 221);
+    }		
+   
+    h2{
+        padding-top: 5px;
+        font-size: 0.78rem;
+    }
+    .heading1, .heading2, .heading3, .heading4 {
+        font-size: 0.60rem;
+    }
+    .refresh-button {
+        position: fixed;
+        bottom: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
